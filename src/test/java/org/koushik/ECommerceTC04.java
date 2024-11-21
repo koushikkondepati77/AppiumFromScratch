@@ -2,26 +2,16 @@ package org.koushik;
 
 
 import io.appium.java_client.AppiumBy;
-import io.appium.java_client.android.nativekey.AndroidKey;
-import io.appium.java_client.android.nativekey.KeyEvent;
 import org.koushik.pageObjects.android.CartPage;
-import org.koushik.pageObjects.android.FormPage;
 import org.koushik.pageObjects.android.ProductsCatalogue;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Capabilities;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.time.Duration;
-import java.util.List;
-import java.util.Set;
-import java.util.concurrent.TimeUnit;
 
-public class ECommerceTC04 extends BaseTest{
+public class ECommerceTC04 extends AndroidBaseTest {
 
    //Handling hybrid app [ switching btw native to web ]
     @Test
